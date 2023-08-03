@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap");
+
+body {
+  background-color: #f8e3e5;
+  font-family: "Roboto Mono", monospace;
+}
+
+#main-div {
+  width: 100%;
+  text-align: center;
+  /* padding: 2%; */
+}
+
+/* #row1 {
+  width: 100%;
+  margin: 2%;
+} */
+
+#row1 > h1 {
+  font-size: 3vmax;
+  font-weight: 700;
+  margin: 1%;
+}
+
+#row1 > form {
+  padding: 2%;
+  font-size: 1.2vmax;
+}
+
+#row1 > form > div {
+  margin: 2%;
+}
+
+#row1 > form > div > label {
+  font-weight: 700;
+  font-size: 1.6vmax;
+  text-transform: uppercase;
+  color: #322653;
+}
+#row1 > form > div > select {
+  color: #f8e3e5;
+  background-color: #322653;
+  border: 2px solid #322653;
+  cursor: pointer;
+  margin: 0 0.7%;
+  padding: 0.2% 0.5%;
+  border-radius: 0.5vmax;
+}
+
+#row1 > form > button {
+  font-size: 1.2vmax;
+  font-weight: 600;
+  padding: 0.5% 2%;
+  color: #f8e3e5;
+  background-color: #322653;
+  border: 2px solid #322653;
+  border-radius: 0.5vmax;
+  transition: all ease 0.3s;
+}
+
+#row1 > form > button:hover {
+  color: #322653;
+  background-color: #f8e3e5;
+  font-weight: 600;
+}
+
+#displayData {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid black;
+}
+
+#displayData > h3 {
+  font-size: 2.2vmax;
+  font-weight: 600;
+  margin: 1%;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+#displayData > h4 {
+  font-size: 1.5vmax;
+  font-weight: 500;
+  margin: 0.8% 0;
+  color: #322653;
+}
+
+#displayData > h4 > span {
+  margin: 0 1%;
+  font-weight: 700;
+  color: black;
+}
